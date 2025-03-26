@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-page="project-management">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
     <link rel="stylesheet" href="css/accordion.e71eb4c8.css">
     <meta charset="utf-8">
