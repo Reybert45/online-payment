@@ -1,0 +1,11 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 26 Mar 2025 14:47:55 at https://super-admin.avidtemplates.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://super-admin.avidtemplates.com/
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://super-admin.avidtemplates.com/ -O1 "C:\My Web Sites\Laravel Auth Template" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://super-admin.avidtemplates.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 44 seconds : 109 links scanned, 108 files written (19099974 bytes overall) [9576755 bytes received at 217653 bytes/sec], 13593707 bytes transferred using HTTP compression in 82 files, ratio 29%, 54.5 requests per connection
+(No errors, 0 warnings, 0 messages)
