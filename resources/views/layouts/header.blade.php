@@ -3,7 +3,7 @@
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                 d="M1 1h14M1 6.25h9.546M1 11.5h14" />
         </svg> <span class="visually-hidden">Open Sidebar</span> </button> <a class="d-none d-sm-block logo"
-        href="index-2.html">Super Admin 3.0</a> <i class="ms-auto"></i>
+        href="index-2.html">ERP</a> <i class="ms-auto"></i>
     <div class="content-search d-lg-flex d-none"> <i class="fs-5 ph ph-magnifying-glass"></i> <input type="text"
             class="form-control" placeholder="Search..."> </div>
     <ul class="header-menu ms-6 ms-xl-10">

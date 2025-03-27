@@ -1,102 +1,58 @@
 <aside id="sidebar"> <button type="button" id="sidebar-close" class="icon sidebar-close"> <i class="fs-5 ph ph-x"></i>
         <span class="visually-hidden">Close Sidebar</span> </button>
-    <div class="sidebar-header"> <a class="d-none d-sm-block logo" href="index-2.html">Super Admin 3.0</a>
+    <div class="sidebar-header"> <a class="d-none d-sm-block logo" href="index-2.html">ERP</a>
     </div>
     <div data-simplebar>
         <ul class="menu">
-            <li class="menu-title">Dashboards</li>
-            <li> <a href="index-2.html"> <i class="ph ph-kanban"></i> <span>Project Management</span> </a> </li>
-            <li> <a href="crm.html"> <i class="ph ph-identification-card"></i> <span>CRM</span> </a> </li>
-            <li> <a href="analytics.html"> <i class="ph ph-globe"></i> <span>Analytics</span> </a> </li>
-            <li> <a href="e-commerce.html"> <i class="mt-n0.5 ph ph-shopping-bag-open"></i>
-                    <span>E-Commerce</span> </a> </li>
-            <li> <a href="email-marketing.html"> <i class="ph ph-envelope-simple"></i> <span>Email
-                        Marketing</span> </a> </li>
-            <li class="menu-title">Application Views</li>
-            <li class="menu-sub"> <a href> <i class="ph ph-user-circle"></i> <span>User</span> </a>
-                <ul>
-                    <li><a href="user-profile.html">Profile</a></li>
-                    <li><a href="user-timeline.html">Timeline</a></li>
-                    <li><a href="user-photos.html">Photos</a></li>
-                    <li><a href="user-connections.html">Connections</a></li>
-                    <li><a href="user-preferences.html">Preferences</a></li>
-                </ul>
-            </li>
-            <li> <a href="file-manager.html"> <i class="ph ph-folder"></i> <span>File Manager</span> </a> </li>
-            <li> <a href="contacts.html"> <i class="ph ph-user-rectangle"></i> <span>Contacts</span> </a> </li>
-            <li> <a href="mail.html"> <i class="ph ph-at"></i> <span>Mail</span> </a> </li>
-            <li> <a href="messages.html"> <i class="ph ph-chat-circle-text"></i> <span>Messages</span> </a>
-            </li>
-            <li> <a href="photos.html"> <i class="ph ph-image"></i> <span>Photos</span> </a> </li>
-            <li> <a href="todo-lists.html"> <i class="ph ph-check-circle"></i> <span>Todo Lists</span> </a>
-            </li>
-            <li> <a href="calendar.html"> <i class="ph ph-calendar-blank"></i> <span>Calendar</span> </a> </li>
-            <li class="menu-title">Miscellaneous</li>
-            <li class="menu-sub"> <a href> <i class="ph ph-browser"></i> <span>Sample Pages</span> </a>
-                <ul>
-                    <li><a href="invoice.html">Invoice</a></li>
-                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                    <li><a href="search-results.html">Search Results</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="forgot-password.html">Forgot Password</a></li>
-                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                    <li><a href="error.html">Error</a></li>
-                </ul>
-            </li>
-            <li class="menu-sub"> <a href> <i class="ph ph-text-t"></i> <span>Content</span> </a>
-                <ul>
-                    <li><a href="typography.html">Typography</a></li>
-                    <li><a href="figures.html">Figures</a></li>
-                    <li><a href="images.html">Images</a></li>
-                    <li><a href="tables.html">Tables</a></li>
-                </ul>
-            </li>
-            <li> <a href="icons.html"> <i class="ph ph-smiley"></i> <span>Icons</span> </a> </li>
-            <li class="menu-sub"> <a href> <i class="ph ph-puzzle-piece"></i> <span>Components</span> </a>
-                <ul>
-                    <li><a href="accordion.html">Accordion</a></li>
-                    <li><a href="alerts.html">Alerts</a></li>
-                    <li><a href="badge.html">Badge</a></li>
-                    <li><a href="breadcrumb.html">Breadcrumb</a></li>
-                    <li><a href="buttons.html">Buttons</a></li>
-                    <li><a href="button-groups.html">Button Groups</a></li>
-                    <li><a href="card.html">Card</a></li>
-                    <li><a href="carousel.html">Carousel</a></li>
-                    <li><a href="collapse.html">Collapse</a></li>
-                    <li><a href="dropdown.html">Dropdown</a></li>
-                    <li><a href="listgroup.html">List Group</a></li>
-                    <li><a href="modal.html">Modal</a></li>
-                    <li><a href="nav.html">Nav</a></li>
-                    <li><a href="offcanvas.html">Offcanvas</a></li>
-                    <li><a href="pagination.html">Pagination</a></li>
-                    <li><a href="placeholders.html">Placeholders</a></li>
-                    <li><a href="popovers.html">Popovers</a></li>
-                    <li><a href="progress.html">Progress</a></li>
-                    <li><a href="spinners.html">Spinners</a></li>
-                    <li><a href="toasts.html">Toasts</a></li>
-                    <li><a href="tooltips.html">Tooltips</a></li>
-                    <li><a href="data-tables.html">Datatables</a></li>
-                </ul>
-            </li>
-            <li class="menu-sub"> <a href> <i class="ph ph-notebook"></i> <span>Forms</span> </a>
-                <ul>
-                    <li><a href="form-elements.html">Form Elements</a></li>
-                    <li><a href="input-groups.html">Input Groups</a></li>
-                    <li><a href="form-layouts.html">Layouts</a></li>
-                    <li><a href="form-templates.html">Templates</a></li>
-                    <li><a href="form-validation.html">Validation</a></li>
-                    <li><a href="form-components.html">Components</a></li>
-                </ul>
-            </li>
-            <li class="menu-sub"> <a href> <i class="ph ph-chart-line"></i> <span>Charts and Maps</span> </a>
-                <ul>
-                    <li><a href="charts.html">Charts</a></li>
-                    <li><a href="maps.html">Maps</a></li>
-                </ul>
-            </li>
+            <li> <a href="index-2.html"> <i class="ph ph-kanban"></i> <span>Dashbord</span> </a> </li>
+            <li> <a href="index-2.html"> <i class="ph ph-users-four"></i> <span>User Management</span> </a> </li>
+
+            <li class="menu-title">HR & Payroll</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-users-three"></i> <span>Employee Management</span> </a> </li>
+            <li> <a href="contacts.html"> <i class="ph ph-notepad"></i> <span>Attendance</span> </a> </li>
+            <li> <a href="contacts.html"> <i class="ph ph-calendar-x"></i> <span>Leave Tracking</span> </a> </li>
+            <li> <a href="mail.html"> <i class="ph ph-bank"></i> <span>Payroll Processing</span> </a> </li>
+            <li> <a href="mail.html"> <i class="ph ph-money"></i> <span>Salary Slips</span> </a> </li>
+            
+            <li class="menu-title">Finance & Accounting</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-list-dashes"></i> <span>Chart of Accounts</span> </a> </li>
+            <li> <a href="contacts.html"> <i class="ph ph-receipt"></i> <span>Invoice & Payments</span> </a> </li>
+            <li> <a href="contacts.html"> <i class="ph ph-wallet"></i> <span>Expense Tracking</span> </a> </li>
+            <li> <a href="contacts.html"> <i class="ph ph-chart-bar"></i> <span>Financial Reporting</span> </a> </li>
+            
+            <li class="menu-title">Inventory Management</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-archive-box"></i> <span>Stock Tracking</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-grid-four"></i> <span>Product Categories</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-truck"></i> <span>Suppliers</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-shopping-cart"></i> <span>Purchase</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-clipboard"></i> <span>Sales Order Management</span> </a> </li>
+            
+            <li class="menu-title">Sales & CRM</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-user-circle"></i> <span>Customer Management</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-file-text"></i> <span>Quotations</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-receipt"></i> <span>Invoices</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-chart-line"></i> <span>Sales Pipeline Tracking</span> </a> </li>
+           
+            <li class="menu-title">Procurement & Supply Chain</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-truck"></i> <span>Supplier Management</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-file-text"></i> <span>Purchase Orders</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-check-circle"></i> <span>Approvals</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-database"></i> <span>Inventory Restocking</span> </a> </li>
+
+            <li class="menu-title">Project Management</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-flag-checkered"></i> <span>Task & Milestone Tracking</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-clipboard"></i> <span>Resource Allocation</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-clock"></i> <span>Time Tracking</span> </a> </li>
+            
+            <li class="menu-title">Manufacturing</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-archive-box"></i> <span>Bills of Materials (BOM)</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-file-text"></i> <span>Work Order Management</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-factory"></i> <span>Production Tracking</span> </a> </li>
+            
+            <li class="menu-title">Reports & Analytics</li>
+            <li> <a href="file-manager.html"> <i class="ph ph-notebook"></i> <span>Customizable Reports</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-file-arrow-down"></i> <span>Export to CSV/PDF</span> </a> </li>
+            <li> <a href="file-manager.html"> <i class="ph ph-chart-bar"></i> <span>Data Visualization</span> </a> </li>
         </ul>
     </div>
 </aside>

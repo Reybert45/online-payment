@@ -9,13 +9,13 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->foreignId('person_id')->constrained('people')->onDelete('cascade');
             $table->string('email');
             $table->timestamp('email_verified_at')->nullable();
-            $table->boolean('is_admin')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->timestamps();
+            $table->date('created_at')->nullable();
+            $table->timestamp('updated_at')->useCurrentOnUpdate();
         });
 
     }
